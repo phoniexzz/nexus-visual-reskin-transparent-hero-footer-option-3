@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus Digital &mdash; AI &amp; Digital Solutions Partner</title>
+  <meta name="description" content="We turn business bottlenecks into self-improving AI systems. Web apps, automation, integrations, and generative AI, built end-to-end.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Script JS (Deferred) -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Background Grid overlay -->
+  <div class="grid-overlay"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#home" class="logo">
+        <div class="logo-icon">N</div>
+        <span>Nexus <span class="gradient-text">Digital</span></span>
+      </a>
+      
+      <nav class="main-nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#workflow" class="nav-link">Workflow</a>
+        <a href="#pillars" class="nav-link">Pillars</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      
+      <a href="#contact" class="hero-btn cta-gradient header-btn">Book a call</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO SECTION ================= -->
+    <section id="home" class="hero-section">
+      <!-- Full-bleed animated hero background -->
+      <video
+        class="hero-background"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        poster="assets/architectural-pen-hero-poster.jpg"
+        aria-hidden="true"
+        tabindex="-1"
+      >
+        <source src="assets/architectural-pen-hero.mp4" type="video/mp4">
+      </video>
+      <div class="container hero-content">
+        <div class="hero-grid">
+          <div class="hero-info">
+            <h1 class="hero-title">
+              <span class="highlight">From business bottleneck</span><br>
+              <span class="hero-line2">to a <span class="italic-serif">self-improving</span> AI system</span>
+            </h1>
+
+            <p class="hero-desc">
+              We build, automate, integrate and evolve the digital core of ambitious teams &mdash; web &amp; mobile apps, AI agents, workflow automation, and data platforms.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#contact" class="hero-btn cta-gradient">
+                Start your project <i class="fa-solid fa-arrow-right"></i>
+              </a>
+
+              <a href="#services" class="hero-btn secondary">Explore services</a>
+            </div>
+          </div>
+
+          <div class="hero-visual-placeholder" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT & TESTIMONIALS ================= -->
+    <section id="about" class="about-section calm-section">
+      <div class="section-aura about-aura" aria-hidden="true"></div>
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-copy">
+            <div class="section-eyebrow">
+              <i class="fa-solid fa-users-gear"></i> About Nexus Digital
+            </div>
+            <h2 class="section-title about-info-title">We build the <span class="gradient-text">system</span>, not just the software</h2>
+            <p class="about-info-text">
+              Nexus Digital is a small, senior team of engineers, designers and AI specialists. We partner with founders and operators who need more than a delivery agency &mdash; they need a long-term partner who can design, build and continuously improve the digital core of their business.
+            </p>
+            <p class="about-info-text">
+              Every project we ship is built around the same six pillars &mdash; Build, Automate, Integrate, Transform, Analyse, Innovate &mdash; and connected into one workflow that learns from every real-world outcome.
+            </p>
+            <a href="#contact" class="hero-btn cta-gradient">Start a conversation</a>
+          </div>
+
+          <div class="testimonials-widget">
+            <div id="testimonial-card" class="testimonial-card glass">
+              <div class="testimonial-accent"></div>
+              <div class="testimonial-quote-mark" aria-hidden="true">"</div>
+              <h3 class="testimonials-title">Who we build for</h3>
+              <div id="testimonial-text" class="testimonial-bubble">
+                <!-- Typewriter lines go here -->
+              </div>
+              <div class="testimonial-author">
+                <div class="author-img">
+                  <img id="author-img" src="" alt="">
+                </div>
+                <div>
+                  <h4 id="author-name" class="author-name"></h4>
+                  <p id="author-role" class="author-role"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WORKFLOW SECTION ================= -->
+    <section id="workflow" class="workflow-section">
+      <div class="container">
+        <div class="workflow-header">
+          <div>
+            <div class="section-eyebrow">
+              <i class="fa-solid fa-network-wired"></i> Complete digital workflow
+            </div>
+            <h2 class="section-title">From business bottleneck to a <span class="gradient-text">self-improving AI system</span></h2>
+            <p class="section-desc">See the whole system at once. Follow the live signal, click any stage to inspect it, or let the workflow play automatically.</p>
+          </div>
+          
+          <div class="workflow-tabs-container">
+            <div class="workflow-tabs-label">Example workflow</div>
+            <div class="workflow-tabs">
+              <button class="workflow-tab active" data-workflow="support">Customer operations</button>
+              <button class="workflow-tab" data-workflow="invoice">Invoice processing</button>
+              <button class="workflow-tab" data-workflow="onboarding">Employee onboarding</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Workflow Shell -->
+        <div class="wf-shell">
+
+          <div class="wf-body">
+            <!-- Pipeline Track Grid -->
+            <div class="wf-pipeline">
+              <div class="wf-flow-track">
+                <span id="wf-packet" class="wf-packet" style="left: calc(100% - 10px);"></span>
+              </div>
+
+              <!-- Node 1 -->
+              <div class="wf-node" data-stage="0">
+                <div class="wf-node-top">
+                  <span class="wf-node-n">01</span>
+                  <span class="wf-node-state">Detected</span>
+                </div>
+                <div class="wf-node-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                <div class="wf-node-k">Business problem</div>
+                <div class="wf-node-t">Disconnected manual work</div>
+                <div class="wf-node-micro">Email / CRM / policy</div>
+              </div>
+
+              <!-- Node 2 -->
+              <div class="wf-node" data-stage="1">
+                <div class="wf-node-top">
+                  <span class="wf-node-n">02</span>
+                  <span class="wf-node-state">Connected</span>
+                </div>
+                <div class="wf-node-icon"><i class="fa-solid fa-plug"></i></div>
+                <div class="wf-node-k">MCPs + AI agents</div>
+                <div class="wf-node-t">Tools become capabilities</div>
+                <div class="wf-node-micro">CRM / docs / messages</div>
+              </div>
+
+              <!-- Node 3 -->
+              <div class="wf-node" data-stage="2">
+                <div class="wf-node-top">
+                  <span class="wf-node-n">03</span>
+                  <span class="wf-node-state">Working</span>
+                </div>
+                <div class="wf-node-icon"><i class="fa-solid fa-gear"></i></div>
+                <div class="wf-node-k">Automated processing</div>
+                <div class="wf-node-t">Plan, execute, validate</div>
+                <div class="wf-node-micro">Extract / reason / check</div>
+              </div>
+
+              <!-- Node 4 -->
+              <div class="wf-node" data-stage="3">
+                <div class="wf-node-top">
+                  <span class="wf-node-n">04</span>
+                  <span class="wf-node-state">Delivered</span>
+                </div>
+                <div class="wf-node-icon"><i class="fa-solid fa-circle-check"></i></div>
+                <div class="wf-node-k">Business output</div>
+                <div class="wf-node-t">Action completed &amp; logged</div>
+                <div class="wf-node-micro">Reply / update / audit</div>
+              </div>
+
+              <!-- Node 5 -->
+              <div class="wf-node active" data-stage="4">
+                <div class="wf-node-top">
+                  <span class="wf-node-n">05</span>
+                  <span class="wf-node-state">Learning</span>
+                </div>
+                <div class="wf-node-icon"><i class="fa-solid fa-rotate"></i></div>
+                <div class="wf-node-k">Feedback loop</div>
+                <div class="wf-node-t">Every result improves the next</div>
+                <div class="wf-node-micro">Review / measure / improve</div>
+              </div>
+            </div>
+
+            <!-- Detail Splits -->
+            <div class="wf-detail-grid">
+              <!-- Left side detail block -->
+              <div class="wf-detail">
+                <div class="wf-detail-head">
+                  <div id="wf-detail-icon" class="wf-detail-icon">
+                    <i id="wf-detail-icon-i" class="fa-solid fa-rotate"></i>
+                  </div>
+                  <div class="wf-detail-info">
+                    <div id="wf-detail-eyebrow" class="wf-detail-eyebrow">05 / Learning</div>
+                    <div id="wf-detail-title" class="wf-detail-title">Human corrections and real outcomes improve the next run</div>
+                  </div>
+                </div>
+                <p id="wf-detail-desc" class="wf-detail-desc">Approvals, edits, exceptions and customer outcomes are measured. The workflow tunes its prompts, rules and context sources &mdash; without losing human oversight.</p>
+                <div id="wf-detail-list" class="wf-detail-list"><div class="wf-detail-item"><i class="fa-solid fa-circle-check"></i> <span>Capture edits &amp; exceptions</span></div><div class="wf-detail-item"><i class="fa-solid fa-circle-check"></i> <span>Measure quality + cycle time</span></div><div class="wf-detail-item"><i class="fa-solid fa-circle-check"></i> <span>Improve context &amp; rules</span></div><div class="wf-detail-item"><i class="fa-solid fa-circle-check"></i> <span>Retain human governance</span></div></div>
+              </div>
+
+              <!-- Right side monitor log and progress list -->
+              <div class="wf-monitor">
+                <div class="wf-monitor-head">
+                  <div class="wf-monitor-title"><i class="fa-solid fa-wave-square"></i> Live Execution</div>
+                  <div class="wf-running">Stage metrics</div>
+                </div>
+
+                <!-- Animated progress metrics -->
+                <div id="wf-jobs" class="wf-jobs"><div class="wf-job">
+      <div class="wf-job-icon"><i class="fa-solid fa-gears"></i></div>
+      <div style="flex:1;">
+        <div class="wf-job-name">Outcome capture</div>
+        <div class="wf-job-bar"><span style="width: 100%"></span></div>
+      </div>
+      <div class="wf-job-status">Complete</div>
+    </div><div class="wf-job">
+      <div class="wf-job-icon"><i class="fa-solid fa-gears"></i></div>
+      <div style="flex:1;">
+        <div class="wf-job-name">Quality scoring</div>
+        <div class="wf-job-bar"><span style="width: 100%"></span></div>
+      </div>
+      <div class="wf-job-status">Matched</div>
+    </div><div class="wf-job">
+      <div class="wf-job-icon"><i class="fa-solid fa-gears"></i></div>
+      <div style="flex:1;">
+        <div class="wf-job-name">Workflow tuning</div>
+        <div class="wf-job-bar"><span style="width: 100%"></span></div>
+      </div>
+      <div class="wf-job-status">Recorded</div>
+    </div></div>
+
+                <!-- Console logging outputs -->
+                <div id="wf-console" class="wf-console"><div class="wf-console-line">
+        <span class="wf-console-time">09:42:07</span>
+        <span class="wf-console-ok">&#10003;</span>
+        <span>Ticket #4821 classified: billing question</span>
+      </div><div class="wf-console-line">
+        <span class="wf-console-time">09:42:08</span>
+        <span class="wf-console-ok">&#10003;</span>
+        <span>Policy article #221 retrieved</span>
+      </div><div class="wf-console-line">
+        <span class="wf-console-time">09:42:09</span>
+        <span class="wf-console-ok">&#10003;</span>
+        <span>Reply drafted (confidence 0.94)</span>
+      </div><div class="wf-console-line">
+        <span class="wf-console-time">09:42:09</span>
+        <span class="wf-console-ok">&#10003;</span>
+        <span>Human approval - no edits</span>
+      </div><div class="wf-console-line">
+        <span class="wf-console-time">09:42:10</span>
+        <span class="wf-console-active">&#8634;</span>
+        <span>Learning signal returned to workflow</span>
+      </div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PILLARS SECTION ================= -->
+    <section id="pillars" class="pillars-section">
+      <div class="section-aura pillars-aura" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header section-header-center">
+          <div>
+            <div class="section-eyebrow">
+              <i class="fa-solid fa-crosshairs"></i> Six Pillars of Digital Excellence
+            </div>
+            <h2 class="section-title">Architecting a <span class="gradient-text">self-improving digital ecosystem</span></h2>
+            <p class="section-desc">A comprehensive framework to build, automate, and scale your business operations with intelligent, interconnected systems.</p>
+          </div>
+        </div>
+
+        <div class="pillars-temple glass">
+          <div class="pillars-autoplay" aria-hidden="true">
+            <span></span>
+            Auto-advancing
+          </div>
+
+          <div class="temple-roof" aria-hidden="true">
+            <div class="temple-apex">
+              <i class="fa-solid fa-crosshairs"></i>
+              <span>Six Pillars</span>
+            </div>
+          </div>
+          <div class="temple-entablature" aria-hidden="true">
+            <span></span>
+          </div>
+
+          <div class="temple-colonnade" role="group" aria-label="Six digital excellence pillars">
+            <button class="pillar-column" type="button" aria-pressed="false" data-index="0" data-title="Build" data-kicker="Pillar 01" data-copy="Product-grade web apps, mobile apps, SaaS platforms, and MVPs shaped around the workflow they need to serve.">
+              <span class="pillar-cap"></span>
+              <span class="pillar-shaft">
+                <span class="pillar-light"></span>
+                <span class="pillar-index">01</span>
+                <span class="pillar-icon"><i class="fa-solid fa-code"></i></span>
+                <span class="pillar-title">Build</span>
+                <span class="pillar-desc">Web apps, mobile apps, SaaS platforms and MVPs.</span>
+              </span>
+              <span class="pillar-base"></span>
+              <span class="pillar-foot">Pillar 01</span>
+            </button>
+
+            <button class="pillar-column" type="button" aria-pressed="false" data-index="1" data-title="Automate" data-kicker="Pillar 02" data-copy="Agentic workflows, document intelligence, and reliable automations that remove repetitive handoffs.">
+              <span class="pillar-cap"></span>
+              <span class="pillar-shaft">
+                <span class="pillar-light"></span>
+                <span class="pillar-index">02</span>
+                <span class="pillar-icon"><i class="fa-solid fa-robot"></i></span>
+                <span class="pillar-title">Automate</span>
+                <span class="pillar-desc">AI agents, workflow automation and document processing.</span>
+              </span>
+              <span class="pillar-base"></span>
+              <span class="pillar-foot">Pillar 02</span>
+            </button>
+
+            <button class="pillar-column" type="button" aria-pressed="false" data-index="2" data-title="Integrate" data-kicker="Pillar 03" data-copy="APIs, payments, CRMs, ERPs, messaging, and legacy systems connected into one steady operating layer.">
+              <span class="pillar-cap"></span>
+              <span class="pillar-shaft">
+                <span class="pillar-light"></span>
+                <span class="pillar-index">03</span>
+                <span class="pillar-icon"><i class="fa-solid fa-plug"></i></span>
+                <span class="pillar-title">Integrate</span>
+                <span class="pillar-desc">APIs, payments, CRM, third-party and legacy systems.</span>
+              </span>
+              <span class="pillar-base"></span>
+              <span class="pillar-foot">Pillar 03</span>
+            </button>
+
+            <button class="pillar-column active" type="button" aria-pressed="true" data-index="3" data-title="Transform" data-kicker="Pillar 04" data-copy="Modernize the operating core around cleaner UX, measurable process improvements, and systems that can keep learning.">
+              <span class="pillar-cap"></span>
+              <span class="pillar-shaft">
+                <span class="pillar-light"></span>
+                <span class="pillar-index">04</span>
+                <span class="pillar-icon"><i class="fa-solid fa-shuffle"></i></span>
+                <span class="pillar-title">Transform</span>
+                <span class="pillar-desc">ERP, CRM, internal systems and business-process digitalisation.</span>
+              </span>
+              <span class="pillar-base"></span>
+              <span class="pillar-foot">Pillar 04</span>
+            </button>
+
+            <button class="pillar-column" type="button" aria-pressed="false" data-index="4" data-title="Analyse" data-kicker="Pillar 05" data-copy="Data platforms, dashboards, and AI-assisted insights that turn operational signals into better decisions.">
+              <span class="pillar-cap"></span>
+              <span class="pillar-shaft">
+                <span class="pillar-light"></span>
+                <span class="pillar-index">05</span>
+                <span class="pillar-icon"><i class="fa-solid fa-chart-line"></i></span>
+                <span class="pillar-title">Analyse</span>
+                <span class="pillar-desc">Data platforms, dashboards, analytics and AI insights.</span>
+              </span>
+              <span class="pillar-base"></span>
+              <span class="pillar-foot">Pillar 05</span>
+            </button>
+
+            <button class="pillar-column" type="button" aria-pressed="false" data-index="5" data-title="Innovate" data-kicker="Pillar 06" data-copy="Rapid prototypes, RAG systems, and GenAI experiments that validate what to build next without derailing the core roadmap.">
+              <span class="pillar-cap"></span>
+              <span class="pillar-shaft">
+                <span class="pillar-light"></span>
+                <span class="pillar-index">06</span>
+                <span class="pillar-icon"><i class="fa-solid fa-lightbulb"></i></span>
+                <span class="pillar-title">Innovate</span>
+                <span class="pillar-desc">Generative AI, RAG, agentic workflows and prototypes.</span>
+              </span>
+              <span class="pillar-base"></span>
+              <span class="pillar-foot">Pillar 06</span>
+            </button>
+          </div>
+
+          <div class="temple-foundation" aria-hidden="true">
+            <span></span>
+          </div>
+
+          <div class="pillar-readout">
+            <span id="pillar-readout-kicker" class="pillar-readout-kicker">Pillar 04</span>
+            <h3 id="pillar-readout-title">Transform</h3>
+            <p id="pillar-readout-copy">Modernize the operating core around cleaner UX, measurable process improvements, and systems that can keep learning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES SECTION ================= -->
+    <section id="services" class="services-section">
+      <div class="section-aura services-aura" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header section-header-center">
+          <div class="section-eyebrow">
+            <i class="fa-solid fa-cubes"></i> What We Do
+          </div>
+          <h2 class="section-title">A Full Digital Operating System</h2>
+          <p class="section-desc">From first prototype to a self-improving production system. Everything you need, wired together.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <div class="service-card">
+            <div class="service-icon-box"><i class="fa-solid fa-code"></i></div>
+            <h3 class="service-title">Product engineering</h3>
+            <p class="service-desc">Web &amp; mobile apps, SaaS platforms, MVPs shipped to production.</p>
+          </div>
+          <!-- Card 2 -->
+          <div class="service-card">
+            <div class="service-icon-box"><i class="fa-solid fa-robot"></i></div>
+            <h3 class="service-title">AI agents &amp; automation</h3>
+            <p class="service-desc">Agentic workflows, RAG, document intelligence, copilots.</p>
+          </div>
+          <!-- Card 3 -->
+          <div class="service-card">
+            <div class="service-icon-box"><i class="fa-solid fa-plug"></i></div>
+            <h3 class="service-title">Systems integration</h3>
+            <p class="service-desc">APIs, CRM, ERP, payments, messaging &mdash; wired into one flow.</p>
+          </div>
+          <!-- Card 4 -->
+          <div class="service-card">
+            <div class="service-icon-box"><i class="fa-solid fa-shuffle"></i></div>
+            <h3 class="service-title">Digital transformation</h3>
+            <p class="service-desc">Modernize legacy tools with AI-native workflows and UX.</p>
+          </div>
+          <!-- Card 5 -->
+          <div class="service-card">
+            <div class="service-icon-box"><i class="fa-solid fa-database"></i></div>
+            <h3 class="service-title">Data &amp; analytics</h3>
+            <p class="service-desc">Warehouses, dashboards, and AI insights on top of your data.</p>
+          </div>
+          <!-- Card 6 -->
+          <div class="service-card">
+            <div class="service-icon-box"><i class="fa-solid fa-lightbulb"></i></div>
+            <h3 class="service-title">Innovation sprints</h3>
+            <p class="service-desc">Rapid GenAI prototypes to validate the next thing to build.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROCESS SECTION ================= -->
+    <section id="process" class="process-section">
+      <div class="process-grid-pattern"></div>
+      <div class="section-aura process-aura" aria-hidden="true"></div>
+      <div class="process-container">
+        <div class="process-header section-header section-header-center">
+          <div class="section-eyebrow process-eyebrow">
+            <i class="fa-solid fa-route"></i>
+            <span>How We Work</span>
+          </div>
+          <h2 class="section-title process-title">Our <span class="gradient-text">Process</span></h2>
+          <p class="section-desc process-desc">
+            A structured approach that turns complex operational problems into scalable digital products.
+          </p>
+        </div>
+
+        <div class="process-timeline">
+          <div class="process-line" aria-hidden="true"></div>
+
+          <div class="process-steps">
+            <article class="process-step process-step-left">
+              <div class="process-copy">
+                <div class="process-step-label">
+                  <span class="process-step-number">1</span>
+                  Discovery
+                </div>
+                <h3>Understand Your Problem</h3>
+                <p>We start by deeply understanding your business challenges, current workflows, and desired outcomes &mdash; not just the technology you think you need.</p>
+              </div>
+              <div class="process-icon" aria-hidden="true">
+                <i class="fa-solid fa-search"></i>
+              </div>
+              <div class="process-spacer" aria-hidden="true"></div>
+            </article>
+
+            <article class="process-step process-step-right">
+              <div class="process-spacer" aria-hidden="true"></div>
+              <div class="process-icon" aria-hidden="true">
+                <i class="fa-solid fa-drafting-compass"></i>
+              </div>
+              <div class="process-copy">
+                <div class="process-step-label">
+                  <span class="process-step-number">2</span>
+                  Design
+                </div>
+                <h3>Architect the Solution</h3>
+                <p>We design a comprehensive solution architecture &mdash; selecting the right technologies, defining integrations, and planning the implementation roadmap.</p>
+              </div>
+            </article>
+
+            <article class="process-step process-step-left">
+              <div class="process-copy">
+                <div class="process-step-label">
+                  <span class="process-step-number">3</span>
+                  Build
+                </div>
+                <h3>Develop &amp; Integrate</h3>
+                <p>Our team builds your solution using agile methodologies, with regular demos and feedback loops to ensure alignment with your vision.</p>
+              </div>
+              <div class="process-icon" aria-hidden="true">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="process-spacer" aria-hidden="true"></div>
+            </article>
+
+            <article class="process-step process-step-right">
+              <div class="process-spacer" aria-hidden="true"></div>
+              <div class="process-icon" aria-hidden="true">
+                <i class="fa-solid fa-rocket"></i>
+              </div>
+              <div class="process-copy">
+                <div class="process-step-label">
+                  <span class="process-step-number">4</span>
+                  Deploy &amp; Scale
+                </div>
+                <h3>Launch &amp; Optimise</h3>
+                <p>We deploy your solution, provide training, and offer ongoing support to ensure your digital systems continue to deliver value as you scale.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section id="contact" class="contact-section">
+      <div class="section-aura contact-aura" aria-hidden="true"></div>
+      <div class="container">
+        <div class="contact-card glass">
+          <div class="contact-copy">
+            <div class="section-eyebrow">
+              <i class="fa-solid fa-paper-plane"></i> Contact
+            </div>
+            <h2 class="section-title">Ready to remove the bottleneck?</h2>
+            <p class="section-desc">Tell us where the bottleneck is. We'll reply within one business day.</p>
+            <div class="contact-signals" aria-label="What happens next">
+              <span><i class="fa-solid fa-check"></i> Senior review</span>
+              <span><i class="fa-solid fa-check"></i> Clear next step</span>
+              <span><i class="fa-solid fa-check"></i> No sales theatre</span>
+            </div>
+          </div>
+          
+          <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully! Our team will get back to you shortly.');">
+            <div class="form-group">
+              <input type="text" class="form-input" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-input" placeholder="Email" required>
+            </div>
+            <div class="form-group full-width">
+              <input type="text" class="form-input" placeholder="Company">
+            </div>
+            <div class="form-group full-width">
+              <textarea class="form-input" rows="5" placeholder="What are you trying to build or fix?" required></textarea>
+            </div>
+            <button type="submit" class="hero-btn cta-gradient submit-btn">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="footer-cityscape" aria-hidden="true"></div>
+
+    <div class="container footer-shell">
+      <div class="footer-main">
+        <div class="footer-art-space" aria-hidden="true"></div>
+
+        <div class="footer-brand">
+          <a href="#home" class="logo footer-logo" aria-label="Nexus Digital home">
+            <span class="logo-icon">N</span>
+            <span>Nexus <span class="gradient-text">Digital</span></span>
+          </a>
+
+          <p class="footer-tagline">
+            We design, automate and evolve the digital core of ambitious businesses&mdash;from intelligent products to self-improving AI systems.
+          </p>
+
+          <a class="footer-email" href="mailto:hello@nexusdigital.com">
+            <span class="footer-email-icon" aria-hidden="true"><i class="fa-regular fa-envelope"></i></span>
+            <span>hello@nexusdigital.com</span>
+            <i class="fa-solid fa-arrow-right footer-email-arrow" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <nav class="footer-column" aria-label="Footer navigation">
+          <h3 class="footer-col-title">Navigation</h3>
+          <span class="footer-title-rule" aria-hidden="true"></span>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#pillars">Pillars</a></li>
+            <li><a href="#workflow">Workflow</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-column" aria-label="Company links">
+          <h3 class="footer-col-title">Company</h3>
+          <span class="footer-title-rule" aria-hidden="true"></span>
+          <ul class="footer-links">
+            <li><a href="#about">About us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Terms of service</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-column footer-locations-column">
+          <h3 class="footer-col-title">Locations</h3>
+          <span class="footer-title-rule" aria-hidden="true"></span>
+
+          <div class="footer-locations">
+            <div class="footer-location">
+              <span class="location-icon" aria-hidden="true"><i class="fa-solid fa-bridge"></i></span>
+              <div>
+                <strong>San Francisco</strong>
+                <span>California, USA</span>
+              </div>
+            </div>
+
+            <div class="footer-location">
+              <span class="location-icon" aria-hidden="true"><i class="fa-solid fa-landmark"></i></span>
+              <div>
+                <strong>London</strong>
+                <span>United Kingdom</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Nexus Digital. All rights reserved.</p>
+
+        <p class="footer-signoff">AI &amp; digital solutions, delivered as one system.</p>
+
+        <div class="footer-socials" aria-label="Social links">
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
